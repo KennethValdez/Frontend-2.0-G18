@@ -18,8 +18,21 @@
     }
 }
 
-.images-animadas{
+.image-animada{
+    animation-name: image-resize;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes image-resize{
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .box-1{
@@ -45,7 +58,21 @@
 }
 .ball-uno{
     height: 100px;
-    
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: ball-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ball-animation{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-400px);
+    }
 }
 
 .lineas{
@@ -61,12 +88,12 @@
 
 .texto-animado-dos{
     animation: texto-animado-dos 5s steps(144) 1s normal
-    both;
-    cursor: 0.5 steps(50) infinite normal;
+    both,
+    cursor 0.5s steps(50) infinite normal;
     animation-iteration-count: infinite;
 }
 
-@keyframes .texto-animado-dos{
+@keyframes  texto-animado-dos{
     from{
         width: 0;
     }
