@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul>li{
+    padding: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.banner{
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    font-size: 2em;
+}
+
+.resume{
+    width: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-primary{
+    width: 200px;
+    background-color: #ff6464;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 15px 25px gray;
+    animation-name: boton-volador;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes boton-volador{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -0.7%;
+    }
+}
+
+.btn-primary:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.img-profile{
+    border-radius: 50%;
+}
