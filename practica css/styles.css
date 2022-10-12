@@ -1,0 +1,53 @@
+*,
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.root{
+    height: 2000px;
+    background-color: rgb(169, 181, 248);
+}
+
+.fijo{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.absoluto{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: blueviolet;
+}
+
+.relativo{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+}
+
+.relativo-absoluto{
+    background-color: red;
+    width: 200px;
+    top: 10px;
+    right: 10px; 
+    position: absolute;
+
+}

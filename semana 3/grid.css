@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.container div{
+    background-color: #ecf0f1;
+    padding: 1em;
+}
+
+.container div:hover{
+    border: 1px solid #f1c40f;
+}
+.item1{
+    grid-column: 1/4;
+}
