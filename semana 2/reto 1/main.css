@@ -1,0 +1,125 @@
+/* Este es HEADER */
+
+.wrap{
+    margin: 20px;
+}
+
+.header{
+    background-color: #00AF1C;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    margin-left: 15px;
+    list-style: none;
+}
+
+.header nav a{
+    font-size: 15px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+/* Este es HOME */
+
+.home h2{
+    color: #3B06D2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.home p{
+    margin-bottom:30px ;
+}
+
+.home div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home div img{
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+/* Este es SERVICE */
+
+.service h2{
+    color: #AAD206;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.service p{
+    margin-bottom: 30px;
+}
+
+.service div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service div img{
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.service ul{
+    margin: 50px;
+}
+
+.service li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service li::marker{
+    color: red;
+}
+
+.service .one{
+    color: #ff0000;
+}
+
+.two{
+    color: #1400ff;
+}
+
+.three{
+    color: #d79b00;
+}
+
+.four{
+    color: #03b2b2;
+}
+
+/* Este es CONTACT */
+
+.contact h2{
+    color: #06D2C6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.contact p{
+    margin-bottom: 30px;
+}
