@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.section-principal{
+    display: flex;
+}
+
+.section-principal div{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
+.box-one{
+    background-color: yellow;
+}
+
+.box-two{
+    background-color: red;
+}
+
+.box-three{
+    background-color: aqua;
+}
+
+/* dentro de los elementos responsive tenemos 3 medias estandar 1200 a 1900 px es el tamaño desktop/ 900 a 700 px es de table / 680 a 480 es mobile */ 
+
+@media only screen and(max-width :480px) {
+    body{
+        background-color: blueviolet;
+    }
+    
+    .section-principal div{
+        width: 50px;
+        height: 50px;
+        border: solid;
+    }
+    
+    .section-principal{
+        display: flex;
+    }
+    
+    .box-three{
+        background-color: brown;
+    }
+    .box-one{
+        background-color: black;
+    }
+}

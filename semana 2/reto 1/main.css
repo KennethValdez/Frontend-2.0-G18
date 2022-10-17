@@ -1,7 +1,14 @@
 /* Este es HEADER */
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin:0;
+    padding: 0;
+}
 
 .wrap{
-    margin: 20px;
+    width: 100%;
 }
 
 .header{
@@ -11,6 +18,9 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 .header ul{
@@ -30,6 +40,7 @@
 .header a{
     text-decoration: none;
     color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo{
@@ -39,6 +50,12 @@
 }
 
 /* Este es HOME */
+
+.home{
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 7rem;
+}
 
 .home h2{
     color: #3B06D2;
@@ -122,4 +139,19 @@
 
 .contact p{
     margin-bottom: 30px;
+}
+
+/* Este es FOOTER */
+
+.footer{
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #00AF1C;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
 }
