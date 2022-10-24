@@ -1,10 +1,9 @@
 const ham = document.querySelector(".ham");
 const enlaces = document.querySelector(".link-menu");
-const barras = document.querySelectorAll(".ham sapn");
+const barras = document.querySelectorAll(".ham span");
 
-.ham.addEventListener("click",()=>{
+ham.addEventListener("click",() => {
     enlaces.classList.toggle("activado");
-    barras.forEach(child => {
-        child.classList.toggle("animado")});
-        ham.classList.toggle("girar");
+    barras.forEach(child => {child.classList.toggle("animado")});
+    ham.classList.toggle("girar");
 });

@@ -8,7 +8,10 @@ body{
 }
 
 .section-principal{
+    padding: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-principal div{
@@ -31,7 +34,7 @@ body{
 
 /* dentro de los elementos responsive tenemos 3 medias estandar 1200 a 1900 px es el tamaño desktop/ 900 a 700 px es de table / 680 a 480 es mobile */ 
 
-@media only screen and(max-width :480px) {
+@media only screen and(max-width :380px) {
     body{
         background-color: blueviolet;
     }
@@ -44,6 +47,9 @@ body{
     
     .section-principal{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .box-three{
