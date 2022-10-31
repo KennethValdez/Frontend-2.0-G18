@@ -1,5 +1,5 @@
-//que es un objeto = es un entidad independiente el cual tiene propiedades y atrbutos
-//
+//que es un objeto = es un entidad independiente el cual tiene propiedades y atributos
+//esta compuesta por un (keys) y un value
 
 
 //
@@ -12,16 +12,16 @@ const carro={
     nuevo: false,
 };
 
-console.log("es un elemento", carro);
+console.log("es un objeto", carro);
 
 //objet persona
 
 const persona={
-    edad:34,
-    nombre:"anastacio",
+    edad:25,
+    nombre:"david",
     sexo:"masculino",
     talla:1.84,
-    estadoCivil: "casado",
+    estadoCivil: "soltero",
     mayorEdad: true,
     donacionOrganos: true,
 }
@@ -38,4 +38,4 @@ persona.nombre ="kenneth";
 
 persona["profesion"] = "conductor";
 persona["bailarin"] = true;
-persona.nacionalidad= "ucraniano"
+persona.nacionalidad= "peruano"
