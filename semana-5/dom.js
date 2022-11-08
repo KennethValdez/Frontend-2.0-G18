@@ -1,10 +1,8 @@
+// existe dentro de js el documento ... este atributo de js me permite obtener elementos en html
 
-
-
-
-
-
-
+//obtener elementos segun el nombre de su etiqueta
+//tag = etiqueta en ingles
+//h1 - div - input
 
 const inputs= document.getElementsByTagName("input")
 console.log("input",inputs);
